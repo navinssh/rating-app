@@ -1,0 +1,10 @@
+const MAX_RATING = 5;
+
+const RATING_ACTIONS = {
+  SET_RATING: 'SET_RATING'
+};
+
+export {
+  MAX_RATING,
+  RATING_ACTIONS,
+};
