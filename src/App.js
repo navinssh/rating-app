@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './app.scss';
+import Games from './components/Games/Games';
 import { getRandomIndex } from './helpers/Helpers';
 import { useDispatch, useSelector } from 'react-redux';
 import { MAX_RATING } from './constants/Constants';
@@ -43,6 +44,7 @@ const App = () => {
             {RATING_ON ? 'Stop Rating' : 'Start Rating'}
           </button>
         </div>
+        <Games games={games} />
       </section>
     </div>
   );
