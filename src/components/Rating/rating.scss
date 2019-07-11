@@ -1,0 +1,26 @@
+.rating {
+  display: inline-block;
+
+  &--star {
+    display: inline-block;
+    padding: 3px;
+    vertical-align: middle;
+    line-height: 1;
+    font-size: 1.5em;
+    color: #ABABAB;
+    transition: color .2s ease-out;
+    cursor: pointer;
+  }
+}
+
+.rating:hover .rating--star {
+  color: #FFD700;
+}
+
+.rating .rating--star:hover ~ .rating--star {
+  color: #ABABAB;
+}
+
+.rating--star.active {
+  color: #FFD700;
+}
