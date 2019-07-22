@@ -1,6 +1,6 @@
 import { combineReducers, createStore } from 'redux/index';
 import { composeWithDevTools } from 'redux-devtools-extension';
-import gamesReducer from 'src/components/Games/reducers/gamesReducer';
+import gamesReducer from './components/Games/reducers/gamesReducer';
 
 
 export const reducer = combineReducers({
