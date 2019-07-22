@@ -1,6 +1,6 @@
-import {RATING_ACTIONS} from "../../constants/Constants";
-import gamesReducer from './gamesReducer';
-import {objectifyInitialState} from "../../helpers/Helpers";
+import {RATING_ACTIONS} from "src/constants/Constants";
+import gamesReducer from 'src/components/Games/reducers/gamesReducer';
+import {objectifyInitialState} from "src/helpers/Helpers";
 
 describe('GamesReducer spec', () => {
     it('should return the initial state', () => {
